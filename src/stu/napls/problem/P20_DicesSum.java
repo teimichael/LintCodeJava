@@ -5,12 +5,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class P20_DicesSum {
+import stu.napls.model.Problem;
+
+public class P20_DicesSum extends Problem{
 
 	private int n = 15;
 
 	public void solution() {
-		System.out.println(dicesSum(n));
+		System.out.println(refer(n));
+//		System.out.println(dicesSum(n));
 	}
 
 	/**
